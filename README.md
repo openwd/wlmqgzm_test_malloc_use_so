@@ -9,7 +9,9 @@
 
 #### 安装教程
 只有一个CPP文件，非常简单， 推荐的编译方法如下：
+
 g++ -Wall -fexceptions -march=core2 -O2 -std=c++14 -c ./main.cpp -o ./main.o
+
 g++ -o ./test_malloc_use_so ./main.o  -s  -lpthread
 
 #### 使用说明
