@@ -16,6 +16,11 @@ g++ -o ./test_malloc_use_so ./main.o  -s  -lpthread
 
 #### 使用说明
 
+1）设置LD_PRELOAD=带路径的libhaisqlmalloc.so，
+例如执行：export LD_PRELOAD=/mnt/guo/libhaisqlmalloc.so
+
+2）执行测试
+
 ./test_malloc_use_so 
 ./test_malloc_use_so --help
 
@@ -26,11 +31,6 @@ Default:  thread_count 1
 
 
 #### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
 
 
 #### 特技
