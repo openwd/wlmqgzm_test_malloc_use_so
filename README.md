@@ -1,23 +1,27 @@
 # test_malloc_use_so
 
 #### 介绍
-用于测试 Linux 内存库性能的C++测试软件。
+用于测试内存库性能的C++测试软件。
 
 #### 软件架构
-软件架构说明
+软件架构说明：使用C++编写的简单支持多线程的 测试内存库性能的C++测试软件，具有多种功能。
 
 
 #### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+只有一个CPP文件，非常简单， 推荐的编译方法如下：
+g++ -Wall -fexceptions -march=core2 -O2 -std=c++14 -c ./main.cpp -o ./main.o
+g++ -o ./test_malloc_use_so ./main.o  -s  -lpthread
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+./test_malloc_use_so 
+./test_malloc_use_so --help
+
+Usage: test_use_so  test_count  loop_count  thread_count
+Default:  test_count 1000000
+Default:  loop_count 2
+Default:  thread_count 1
+
 
 #### 参与贡献
 
