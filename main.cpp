@@ -1,3 +1,8 @@
+// Copyright (c) 2011 haisql.cn.    The libhaisqlmalloc  Authors. All rights reserved.
+// Use of this source code is governed by a Apache2 license that can be  found in the LICENSE file.
+// AUTHORS name:  Guo zhongMing.
+
+
 #include   <iostream>
 #include   <vector>
 #include   <malloc.h>
